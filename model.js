@@ -5,7 +5,7 @@ const model = {
   getChickens: async () => {
     return 'chickens'
   },
-  getGameData: async (gameID) => {
+  getGameState: async (gameID) => {
 
   },
   updateGame: async (gameID, gameState) => {
@@ -16,8 +16,19 @@ const model = {
   },
   postMessage: async (gameID, message) => {
 
-  }
+  },
+  voteForUser: async ({ userID, count }, gameID) => {
 
+  },
+  toggleDead: async ({ userID }, gameID) => {
+
+  },
+  grantPermissions: async ({ userID, permissions }, gameID) => {
+
+  },
+  advanceGame: async (gameID) => {
+
+  }
 }
 
 module.exports = model
