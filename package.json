@@ -4,7 +4,9 @@
   "description": "socket.io/express/node/redis chat server handler for the internet's #1 werewolf game for actual werewolveswq",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "dev": "nodemon index.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
