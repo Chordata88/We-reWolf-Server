@@ -1,5 +1,5 @@
 const router = require('express').Router()
-const controller = require('./controller.js')
+const controller = require('./controller.js'); const authControllers = require('./authControllers.js');
 
 router.get('/chickens', controller.sendChickens)
 
